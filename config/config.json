@@ -1,0 +1,16 @@
+{
+  "Environments": {
+    "DEV": {
+      "url": "http://www.automationpractice.pl",
+	  "mX_nO_Of_attempst" = 3 
+    },
+    "QA": {
+      "url": "http://www.automationpractice.pl",
+	  "mX_nO_Of_attempst" = 3 
+    },
+    "UAT": {
+      "url": "http://www.automationpractice.pl",
+	  "mX_nO_Of_attempst"= 3 
+    }
+  }
+}
