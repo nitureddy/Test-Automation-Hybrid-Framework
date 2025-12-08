@@ -23,21 +23,22 @@ jobs:
         java-version: '11'
         distribution: 'temurin'
         cache: maven
+        
     - name: running test autiomation with Mavenname
       run: mvn test -X -Dbrowser=chrome  -Dislambdatest=true -Disheadless=false
    
     - name: Upload Test logs 
       if: Always()
-      uses: actions/upload-artifact@v5.0.0
+      uses: actions/upload-artifact@v4.4.3
       with:
-      name: Test logs
+       name: Test logs
       path: logs/
       
-     - name: Upload Test Reports 
+    - name: Upload Test Reports 
       if: Always()
-      uses: actions/upload-artifact@v5.0.0
+      uses: actions/upload-artifact@v4.4.3
       with:
-      name: Test Reports
+       name: Test Reports
       path: Report.html
 
    - name: Test Execution Status
