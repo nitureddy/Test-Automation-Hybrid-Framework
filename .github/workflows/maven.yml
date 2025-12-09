@@ -1,4 +1,4 @@
-name: Test Automation with maven
+name: Test Automation with maven 
 
 on:
   schedule:
